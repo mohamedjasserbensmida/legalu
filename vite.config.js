@@ -1,17 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import externals from 'vite-plugin-externals';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Assurez-vous que le chemin de base est correct
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-        },
-      },
-      chunkSizeWarningLimit: 1000, // Ajustez la limite de taille des chunks
-    },
+  optimizeDeps: {
+    exclude: ['three'], // Exclude 'three' package
   },
-});
+  base: 'https://tpspace.github.io/3D-Portfolio/'
+})
