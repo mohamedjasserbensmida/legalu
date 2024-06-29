@@ -1,0 +1,11 @@
+Model Information:
+* title:	Office Floor Lamp (Alu)
+* source:	https://sketchfab.com/3d-models/office-floor-lamp-alu-e017806052bc42ad8ee54441a26ada53
+* author:	Christian (https://sketchfab.com/Enzi1984)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Office Floor Lamp (Alu)" (https://sketchfab.com/3d-models/office-floor-lamp-alu-e017806052bc42ad8ee54441a26ada53) by Christian (https://sketchfab.com/Enzi1984) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

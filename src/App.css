@@ -1,0 +1,13 @@
+@keyframes slideBackground {
+    0% { background-position: center; }
+    50% { background-position: 10px center; }
+    100% { background-position: center; }
+  }
+  
+  .bg-hero-pattern {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: slideBackground 2s ease-in-out infinite;
+  }
+  
