@@ -28,7 +28,7 @@ import stock from "./company/stock.png";
 import calculator from "./company/calculator.png";
 import document from "./company/document.png";
 import tresorie from "./company/tresorie.png";
-import fournisseur from "./company/Fournisseur.png";
+import fournisseur from "./company/fournisseur.png";
 import client from "./company/client.png";
 import tesla from "./company/tesla.png";
 
