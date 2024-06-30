@@ -42,6 +42,10 @@ import {
       title: "Fonctionnalités",
     },
     {
+      id: "feedbacks",
+      title: "Avis",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -230,17 +234,26 @@ import {
       name: "Monji Bhar",
       designation: "Gérant Societe AluPro",
       company: "AluMenuiserie Pro",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
+      image: "https://randomuser.me/api/portraits/men/11.jpg",
     },
     {
       testimonial:
         "L'optimisation et le débitage des barres sont incroyablement précis. Le gain de temps et de ressources est impressionnant.",
-      name: "Sophie Laurent",
+      name: "Simon Louvre",
       designation: "Chef de Projet",
       company: "AluInnov",
-      image: "https://randomuser.me/api/portraits/women/3.jpg",
+      image: "https://randomuser.me/api/portraits/men/7.jpg",
+    },
+    {
+      testimonial:
+        "Le logiciel a transformé notre façon de travailler. Nous avons considérablement réduit les erreurs et augmenté notre efficacité.",
+      name: "Sarah Dupont",
+      designation: "Directrice Technique",
+      company: "TechAlu",
+      image: "https://randomuser.me/api/portraits/women/8.jpg",
     },
   ];
+  
   
   
   const projects = [

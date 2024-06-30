@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./rocket/scene.gltf');
+  const computer = useGLTF('../rocket/scene.gltf');
 
   const initialPosition = isMobile ? [0, -5, 0] : [0, -5, 0]; // Ajuster la position sur l'axe X pour déplacer vers la droite
   const initialScale = isMobile ? 2 : 2; // Réduire la taille en diminuant la valeur de scale
