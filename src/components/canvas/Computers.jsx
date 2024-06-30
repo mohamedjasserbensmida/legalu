@@ -7,7 +7,8 @@ import CanvasLoader from "../Loader";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./rocket/scene.gltf');
 
-  const initialPosition = isMobile ? [0, -2, 0] : [0, -2, 0]; // Position initiale ajustée vers le bas sur l'axe Y
+  const initialPosition = isMobile ? [0, -5, 0] : [0, -5, 0]; // Ajuster la position sur l'axe X pour déplacer vers la droite
+  const initialScale = isMobile ? 2 : 2; // Réduire la taille en diminuant la valeur de scale
 
   return (
     <mesh>
@@ -23,7 +24,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 3 : 3}
+        scale={initialScale}
         position={initialPosition}
         rotation={[0, 0, 0]} // Rotation initiale définie à [0, 0, 0]
       />
@@ -58,7 +59,7 @@ const ComputerCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 1, 5], fov: 25 }} // Ajustez la position de la caméra si nécessaire
+      camera={{ position: [20, 1, 5], fov: 40 }} // Ajustez la position de la caméra si nécessaire
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
